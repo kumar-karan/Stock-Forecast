@@ -1,35 +1,34 @@
 # Project Overview
 
-In this project, we'll predict the price of the S&P500 stock market index.
+This project aims to predict the price of the S&P500 stock market index using machine learning techniques.
 
-**Project Steps**
+## Project Steps
 
-* Download data using the yfinance package
-* Create an initial machine learning model and estimate accuracy
-* Build a backtesting engine to more accurately measure accuracy
-* Improve the accuracy of the model
+1. **Data Acquisition**: Download historical data using the `yfinance` package.
+   
+2. **Initial Model Development**: Create a baseline machine learning model and evaluate its accuracy.
+   
+3. **Backtesting Engine**: Develop a backtesting engine to rigorously assess the model's performance over different time periods.
+   
+4. **Model Refinement**: Improve the model's accuracy through iterative refinement and parameter tuning.
 
-## Code
+### File Overview:
 
-You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/sp_500).
-
-File overview:
-
-* `market_prediction.ipynb` - a Jupyter notebook that contains all of the code.
+- **`market_prediction.ipynb`**: Jupyter notebook containing all project code.
 
 # Local Setup
 
-## Installation
+## Installation Requirements
 
-To follow this project, please install the following locally:
+To replicate and explore this project locally, ensure you have the following:
 
-* JupyerLab
-* Python 3.8+
-* Python packages
-    * pandas
-    * yfinance
-    * scikit-learn
+- **JupyterLab**
+- **Python 3.8+**
+- **Python Packages**:
+  - `pandas`
+  - `yfinance`
+  - `scikit-learn`
 
 ## Data
 
-We'll download all of the data during the project, using the `yfinance` package.
+All necessary data will be downloaded dynamically during the project using the `yfinance` package.
